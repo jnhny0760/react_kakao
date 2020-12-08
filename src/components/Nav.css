@@ -1,0 +1,12 @@
+/* bottom_banner */
+.bottom_banner{position: fixed; bottom: 0; width: 100%; height: 55px;border-top: 1px solid #c1c1c1; display: flex; justify-content: space-around; background: #f7f7f7;}
+
+.bottom_banner a{transition: all 0.2s linear 0s;}
+.bottom_banner a:hover{transform: scale(1.1);}
+
+.bottom_banner i{color: #c1c1c1;}
+.bottom_banner a{display: flex; flex-direction: column; align-items: center; margin-top: 5px; color: #c1c1c1; margin-top: 10px;}
+.bottom_banner i{font-size: 24px;}
+.bottom_banner span{font-size: 10px;}
+
+.bottom_banner .active i,.bottom_banner .active span{color:#532727;}
